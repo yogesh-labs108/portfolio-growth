@@ -526,5 +526,107 @@
           </div>
         </div>
       </article>
+    </section>
 
     <!-- ===================== PROCESS ===================== -->
+    <section class="section process" id="process">
+      <div class="container">
+        <h2 class="heading heading--center reveal">
+          <span class="heading__line">How I <span class="heading__line--muted">Work?</span></span>
+        </h2>
+        <p class="ribbon reveal" data-delay="100">Curious enough to question the obvious. Practical enough to ship.</p>
+
+        <div class="principles">
+          <article class="principle reveal" data-cursor="hover">
+            <span class="principle__num">01</span>
+            <h3>I start with the problem.</h3>
+            <p>Before suggesting a solution, I want to understand who experiences the problem, how often it occurs, and why it matters.</p>
+          </article>
+          <article class="principle reveal" data-delay="80" data-cursor="hover">
+            <span class="principle__num">02</span>
+            <h3>I use data to reduce guesswork.</h3>
+            <p>I value evidence, but I also pay attention to its limitations. A metric is useful only when its definition and context are clear.</p>
+          </article>
+          <article class="principle reveal" data-delay="160" data-cursor="hover">
+            <span class="principle__num">03</span>
+            <h3>I prefer small, meaningful experiments.</h3>
+            <p>Rather than committing to a large initiative based on an untested assumption, I'd rather identify a focused experiment that can teach us something useful.</p>
+          </article>
+          <article class="principle reveal" data-delay="240" data-cursor="hover">
+            <span class="principle__num">04</span>
+            <h3>I work across disciplines.</h3>
+            <p>Growth problems rarely belong to a single team. I value clear communication and shared ownership between technical, creative and business stakeholders.</p>
+          </article>
+          <article class="principle reveal" data-delay="320" data-cursor="hover">
+            <span class="principle__num">05</span>
+            <h3>I use AI with intention.</h3>
+            <p>I look for ways to accelerate research, analysis, prototyping, and repetitive tasks while preserving human judgment and accountability.</p>
+          </article>
+          <article class="principle reveal" data-delay="400" data-cursor="hover">
+            <span class="principle__num">06</span>
+            <h3>I care about sustainable results.</h3>
+            <p>An increase in clicks means little if users do not find value. I want to understand the relationship between short-term performance and long-term customer behavior.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section contact" id="contact">
+      <div class="contact__wave contact__wave--l" aria-hidden="true"></div>
+      <div class="contact__wave contact__wave--r" aria-hidden="true"></div>
+
+      <div class="container">
+        <h2 class="heading heading--center heading--xl reveal">
+          <span class="heading__line">Let's <span class="heading__line--muted">Talk!</span></span>
+        </h2>
+        <p class="ribbon reveal" data-delay="100">Have a problem worth solving?</p>
+
+        <div class="contact__copy reveal" data-delay="150">
+          <p>I'm always interested in conversations about product growth, customer retention, experimentation, AI-enabled workflows, and the intersection of technology and business.</p>
+          <p>If you're building products, exploring new growth opportunities, or looking for someone who enjoys breaking complex problems into practical steps, I'd love to connect.</p>
+        </div>
+
+        <div class="contact__card reveal" data-delay="250">
+          <div class="contact__name">Yogesh T.</div>
+          <a class="contact__email magnetic" href="mailto:yogesht25022003@gmail.com" data-cursor="hover">yogesht25022003@gmail.com</a>
+          <div class="contact__row">
+            <a class="btn btn--primary magnetic" href="mailto:yogesht25022003@gmail.com?subject=Let%27s%20talk%20growth" data-cursor="hover"><span>Send an email</span></a>
+            <button class="btn btn--ghost magnetic" id="copyEmail" data-copy="yogesht25022003@gmail.com" data-cursor="hover"><span>Copy email</span></button>
+            <a class="btn btn--ghost magnetic" href="tel:+919080896537" data-cursor="hover"><span>+91 90808 96537</span></a>
+            <a class="btn btn--ghost magnetic" href="resume.html" data-cursor="hover"><span>Creative resume</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__marquee" aria-hidden="true">
+      <div class="footer__track">
+        <span>Finding Drop-offs.</span><span>Designing Experiments.</span><span>Making the Call.</span>
+        <span>Finding Drop-offs.</span><span>Designing Experiments.</span><span>Making the Call.</span>
+      </div>
+    </div>
+    <div class="container footer__bar">
+      <span>© <span id="year"></span> Yogesh T.</span>
+      <span class="footer__time">Local time <span id="localTime">--:--</span> IST</span>
+      <a href="#top" class="footer__top" data-cursor="hover">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close" data-cursor="hover">×</button>
+    <figure>
+      <img id="lightboxImg" src="" alt="" />
+      <figcaption id="lightboxCap"></figcaption>
+    </figure>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
